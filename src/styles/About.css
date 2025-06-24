@@ -1,0 +1,159 @@
+.about-hero {
+    background-image: url('news.png');
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.about-overlay {
+    position: absolute;
+    width: 100%;
+    height: 342px;
+    left: 0px;
+    top: 300px;
+    background: rgba(255, 255, 255, 0.01);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(11px);
+}
+
+.about-container h1{
+    font-size: 4em;
+    font-weight: bold;
+    color: #fff;
+    margin: 70px 70px;
+}
+
+.about-container button{
+    padding: 15px 40px;
+     margin: 0 70px;
+}
+
+.main-about{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    width: 100%;
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+    height: 90vh;
+}
+.main-about p,
+.about-text2 p {
+    margin-bottom: 1.5em; 
+    font-size: 0.9em;
+}
+.about-text2 {
+    flex: 2;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.main-about img{
+    flex: 1;
+    width: 250px;
+    height: auto;
+    margin-top: 0 40px 0 0;
+}
+
+/* Devices below 768px */
+@media (max-width: 768px) {
+  .about-container h1 {
+    font-size: 2.5em;
+    margin: 40px 30px;
+  }
+
+  .about-container button {
+    padding: 12px 30px;
+    margin: 0 30px;
+  }
+
+  .main-about {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+    padding: 2em 1em;
+  }
+
+  .main-about img {
+    width: 200px;
+    margin: 1em 0;
+  }
+
+  .about-text2 {
+    margin: 20px 10px;
+    text-align: center;
+  }
+
+  .about-text2 p {
+    font-size: 1em;
+  }
+
+  .about-overlay {
+    height: 200px;
+    top: 500px;
+    backdrop-filter: blur(8px);
+  }
+}
+
+/* Devices below 600px */
+@media (max-width: 600px) {
+  .about-container h1 {
+    font-size: 2em;
+    margin: 30px 20px;
+  }
+
+  .about-container button {
+    padding: 10px 25px;
+    margin: 0 20px;
+    font-size: 0.9em;
+  }
+
+  .main-about img {
+    width: 180px;
+  }
+
+  .about-text2 p {
+    font-size: 0.9em;
+    padding: 0 10px;
+  }
+
+  .about-overlay {
+    height: 150px;
+    top: 380px;
+    backdrop-filter: blur(8px);
+  }
+}
+ 
+/* Devices below 430px */
+@media (max-width: 430px) {
+  .about-container h1 {
+    font-size: 1.7em;
+    margin: 25px 15px;
+  }
+
+  .about-container button {
+    padding: 10px 20px;
+    margin: 0 15px;
+    font-size: 0.8em;
+  }
+
+  .main-about img {
+    width: 150px;
+  }
+
+  .about-text2 p {
+    font-size: 0.85em;
+  }
+
+  .about-overlay {
+    height: 130px;
+    top: 460px;
+    backdrop-filter: blur(6px);
+  }
+}
