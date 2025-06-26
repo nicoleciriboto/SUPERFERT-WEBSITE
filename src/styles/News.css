@@ -1,5 +1,5 @@
 .hero {
-    background-image: url('news.png');
+    background-image: url('/news.png');
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -37,6 +37,13 @@ button {
     border: none;
     font-weight: bold;
     font-size: 1em;
+    color: #000;
+    cursor: pointer;
+}
+
+button:hover{
+  background-color: #18263A;
+  color: #fff;
 }
 
 .right-container {
@@ -106,6 +113,8 @@ button {
 .news-card .news-btn{
     font-weight: bold;
     padding-right: 60px;
+    color: #000;
+    background-color: #fdf517;
 }
 .news-card .news-btn:hover{
     background-color: #000;
@@ -168,80 +177,15 @@ button {
   }
 }
 
-/* Devices below 600px */
-/* @media (max-width: 600px) {
-  .hero {
-    height: auto;
-  }
-
-  .overlay {
-    height: 180px;
-    top: 320px;
-    backdrop-filter: blur(8px);
-  }
-
-  .left-container {
-    position: relative;
-    top: auto;
-    left: auto;
-    margin: 2em 1em;
-    text-align: center;
-  }
-
-  .left-container h1 {
-    font-size: 2em;
-  }
-
-  .right-container {
-    position: relative;
-    top: auto;
-    right: auto;
-    z-index: 1;
-    text-align: center;
-    margin: 2em 1em;
-  }
-
-  .nav-arrows {
-    position: relative;
-    justify-content: center;
-    left: auto;
-    margin-top: 1em;
-  }
-
-  .news {
-    margin: 20px 10px;
-  }
-
-  .news h1 {
-    font-size: 1.8em;
-  }
-
-  .news-grid {
-    grid-template-columns: 1fr;
-    gap: 20px;
-  }
-
-  .news-card {
-    padding: 10px;
-  }
-
-  .news-card .news-btn {
-    display: block;
-    margin: 0 auto;
-    padding: 10px 20px;
-  }
-} */
-
 @media (max-width: 600px) {
   .hero {
     height: 80vh;
     padding-bottom: 2rem;
-   
   }
 
-    .overlay {
-       display: none;
-    }
+   .overlay {
+    display: none;
+}
 
   .left-container {
     position: static;
@@ -305,6 +249,15 @@ button {
   }
 
   .nav-arrows {
+    display: none;
+  }
+}
+
+@media (max-width: 890px){
+  .right-container {
+    display: none;
+  }
+  .news-img{
     display: none;
   }
 }

@@ -23,8 +23,12 @@ const Home = () => {
                     <p>Lorem ipsum dolor sit amet, consectetur <br />adipiscing elit, sed do eiusmod tempor <br />incididunt.</p>
                 </div>
                 <div className="buttons">
-                    <button className='btn'>Contact Us</button>
-                    <button className='btn2'>Products    →</button>
+                    <button className='btn' onClick={() => {
+                        document.getElementById('contact').scrollIntoView({ behavior: 'smooth' });
+                    }}>Contact Us</button>
+                    <button className='btn2' onClick={() => {
+                        document.getElementById('products').scrollIntoView({ behavior: 'smooth' });
+                    }}>Products    →</button>
                 </div>
                 <div 
                 className="scroll" onClick={() => {
@@ -92,7 +96,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="product-section">
+            <section className="product-section" id="products">
                 <div className="product-grid">
                     <div className="card">
                         <img src={menu} alt="" />
@@ -133,7 +137,7 @@ const Home = () => {
                 </div>
             </section>
 
-            <section className="contact-section">
+            <section className="contact-section" id="contact">
                 <div className="contact-left">
                     <h1>For <br />Queries, or <br />Inquiries.</h1>
                     <p>Get in touch with us</p>

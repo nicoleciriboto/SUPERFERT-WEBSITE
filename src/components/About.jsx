@@ -10,12 +10,14 @@ const About = () => {
                 <div className="about-overlay">
                     <div className="about-container">
                         <h1>Who we are.</h1>
-                        <button>More Info ↓</button>
+                        <button onClick={() => {
+                            document.getElementById('main-about').scrollIntoView({ behavior: 'smooth' });
+                        }}>More Info ↓</button>
                     </div>
                 </div>
             </section>
 
-            <section className="main-about">
+            <section className="main-about" id='main-about'>
                 <div className="about-text2">
                     <p>Proudly Zimbabwean Superfert Fertilizer is locally manufactured at our state of the art processing plant in Bindura. Only the highest quality inputs are used across our range to ensure a dependable first-rate product with results that speak for themselves.</p>
 

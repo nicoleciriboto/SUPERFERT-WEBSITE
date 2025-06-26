@@ -12,7 +12,9 @@ const News = () => {
                 <div className="overlay"></div>
                 <div className="left-container">
                     <h1>News & Events.</h1>
-                    <button>More Info ↓</button>
+                    <button onClick={() => {
+                        document.getElementById('news').scrollIntoView({ behavior: 'smooth' });
+                    }}>More Info ↓</button>
                     <div className="right-container">
                         <p>Next Events <b>| Roadshow // 27 May 2023</b></p>
                         <p>Lorem ipsum dolor sit amet, consectetur< br />adipiscing elit, sed do eiusmod tempor< br /> incididunt.</p>
@@ -29,7 +31,7 @@ const News = () => {
                 </div>
             </section>
 
-            <section className="news">
+            <section className="news" id='news'>
                 <h1>Latest News</h1>
                 <img src={img2} alt="" className='news-img'/>
 

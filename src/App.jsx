@@ -1,5 +1,5 @@
 
-import React, { useEffect } from 'react'; // ✅ Import useEffect
+import React, { useEffect } from 'react'; 
 import './index.css';
 import Navbar from './components/Navbar';
 import Home from './components/Home';
@@ -8,7 +8,7 @@ import About from './components/About';
 import Footer from './components/Footer';
 import { BrowserRouter as Router, Route, Routes, useLocation } from 'react-router-dom';
 
-// ✅ Fixed ScrollToTop component
+// Fixed ScrollToTop component
 const ScrollToTop = () => {
   const { pathname } = useLocation();
 
@@ -16,7 +16,7 @@ const ScrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   }, [pathname]);
 
-  return null; // ✅ Return null since this component doesn't render anything
+  return null; // Return null since this component doesn't render anything
 };
 
 const App = () => {
@@ -25,6 +25,7 @@ const App = () => {
       <Navbar />
       <ScrollToTop />
       <Routes>
+        <Route path="/" element={<Home />} />
         <Route path="/Home" element={<Home />} />
         <Route path="/News" element={<News />} />
         <Route path="/About" element={<About />} />

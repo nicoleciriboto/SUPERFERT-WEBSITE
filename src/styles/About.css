@@ -1,5 +1,5 @@
 .about-hero {
-    background-image: url('news.png');
+    background-image: url('/news.png');
     background-position: center;
     background-size: cover;
     height: 100vh;
@@ -27,7 +27,15 @@
 
 .about-container button{
     padding: 15px 40px;
-     margin: 0 70px;
+    margin: 0 70px;
+    color: #000;
+    background-color: #fdf517;
+    cursor: pointer;
+}
+
+.about-container button:hover{
+  background-color: #18263A;
+  color: #fff;
 }
 
 .main-about{
@@ -133,14 +141,15 @@
 /* Devices below 430px */
 @media (max-width: 430px) {
   .about-container h1 {
-    font-size: 1.7em;
-    margin: 25px 15px;
+    font-size: 2em;
+    margin: 55px 25px;
   }
 
   .about-container button {
     padding: 10px 20px;
     margin: 0 15px;
     font-size: 0.8em;
+    width: 30%;
   }
 
   .main-about img {
@@ -152,8 +161,8 @@
   }
 
   .about-overlay {
-    height: 130px;
-    top: 460px;
+    height: 300px;
+    top: 560px;
     backdrop-filter: blur(6px);
   }
 }
