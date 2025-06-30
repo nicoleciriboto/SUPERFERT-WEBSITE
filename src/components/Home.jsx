@@ -83,7 +83,7 @@ const Home = () => {
             </div>
 
             <section className="products">
-                <img src={logo} alt="" />
+                <img src={logo} alt="" className='pro-logo'/>
                 <h1>SuperFert Products.</h1>
                 <div className="products-row">
                     <div className="products-text">

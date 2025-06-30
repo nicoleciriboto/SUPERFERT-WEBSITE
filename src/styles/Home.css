@@ -591,9 +591,11 @@
     }
     .offers-content p {
         margin-right: 5em;
+        margin-bottom: 0;
        
     }
     .offers-btn{
+        margin-top: 0;
         margin-right: 5em;
     }
     .offers img{
