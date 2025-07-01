@@ -31,5 +31,10 @@ footer img{
 @media (max-width: 890px){
     .main-container{
         display: block;
+        text-align: center;
+    }
+    .links-container h4{
+        margin-top: 15px;
+        margin-bottom: 5px;
     }
 }

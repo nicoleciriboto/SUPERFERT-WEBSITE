@@ -117,10 +117,12 @@
 
 @media (max-width: 430px){
   .navbar{
-    top: 120px;
-    left: 50px;
-    width: 190px;
-    height: 0;
+  top: 50px;
+  left: auto;
+  right: -140px;
+  width: 190px;
+  height: 0;
+  opacity: 90%;
   }
   .hamburger {
   font-size: 2rem;
@@ -128,15 +130,20 @@
   cursor: pointer;
   color: #000;
   z-index: 1100;
+  margin-bottom: -30px;
 }
   .nav-links{
-     position: fixed;
-     width: 350px; 
-     gap: 2rem;
-     left: -200%;
+  position: fixed;
+  width: 380px; 
+  gap: 2rem;
+  right: -50%;
+  transition: left 0.3s ease-in-out;
+  }
+  .nav-links .links{
+    margin-bottom: 40px;
   }
   .nav-links.open {
-  left: 0;
+  left: 190px;
 }
 }
 

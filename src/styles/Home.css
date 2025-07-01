@@ -609,12 +609,13 @@
   .products h1 {
     font-size: 2.5em;
     text-align: center;
-    margin-top: 1em;
+    margin-top: 0.2em;
   }
   .products img{
     padding: 10px 10px;
-    width: 100%;
-    margin-top: 0.2em;
+    width: 80%;
+    margin-top: 0.5em;
+    margin-left: 40px;
   }
 
   .product-grid {
@@ -632,17 +633,20 @@
     font-size: 2em;
     margin-bottom: 1em;
     text-align: center;
-    margin-left: 1em;
+    margin-left: 0;
   }
   .contact-left p {
     font-size: 1em;
     text-align: center;
-    margin-left: 1em;
+    margin-left: 0;
   }
     .contact-right {
         margin: 0 auto;
         width: 90%;
         padding: 1em;
+    }
+    .submit-btn{
+        font-size: 0.7em;
     }
 }
 
