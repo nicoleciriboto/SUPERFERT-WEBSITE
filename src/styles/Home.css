@@ -592,22 +592,27 @@
     .divider .line {
         display: none;
     }
+    .divider2 {
+        display: none;
+    }
     .divider2 .line2 {
         display: none;
     }
     .offers-content h2{
+        font-size: 2em;
+        margin-top: 2em;
         margin-right: 1em;
         text-align: center;
     }
     .offers-content p {
         margin-right: 5em;
-        margin-left: 3em;
-        margin-bottom: 0;
+        margin-left: 2em;
+        margin-bottom: 20px;
        
     }
     .offers-btn{
         margin-top: 0;
-        margin-right: 2em;
+        margin-right: 3em;
     }
     .offers img{
         display: none;
@@ -672,7 +677,6 @@
 
   .content h3,
   .about h2,
-  .offers-content h2,
   .products h1 {
     font-size: 1.8em;
   }

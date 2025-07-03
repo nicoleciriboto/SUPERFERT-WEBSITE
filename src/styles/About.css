@@ -10,9 +10,9 @@
 .about-overlay {
     position: absolute;
     width: 100%;
-    height: 342px;
+    height: 380px;
     left: 0px;
-    top: 300px;
+    bottom: 0;
     background: rgba(255, 255, 255, 0.01);
     mix-blend-mode: normal;
     backdrop-filter: blur(11px);
@@ -146,6 +146,9 @@
  
 /* Devices below 430px */
 @media (max-width: 430px) {
+  .about-container{
+    padding: 0 15px;
+  }
   .about-container h1 {
     font-size: 2em;
     margin: 55px 25px;
@@ -167,8 +170,8 @@
   }
 
   .about-overlay {
-    height: 370px;
-    top: 560px;
+    height: 550px;
+    bottom: 0;
     backdrop-filter: blur(6px);
   }
 }
