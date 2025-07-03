@@ -135,6 +135,9 @@ button:hover{
   .news {
     margin: 30px 20px;
   }
+  .overlay{
+    display: none;
+  }
 
   .news h1 {
     font-size: 2em;
@@ -240,9 +243,6 @@ button:hover{
     font-size: 0.95em;
   }
 
-  .nav-arrows {
-    display: none;
-  }
 }
 
 @media (max-width: 890px){
@@ -254,3 +254,24 @@ button:hover{
   }
 }
 
+@media (max-width: 820px){
+  .overlay{
+    display: none;
+  }
+}
+
+@media (max-width: 375px){
+ .hero{
+  height: 100vh;
+ }
+}
+
+@media (max-width: 1024px){
+  .right-container{
+    margin-right: 8em;
+    margin-top: 40em;
+  }
+  .left-container{
+    margin-top: 40em;
+  }
+}
