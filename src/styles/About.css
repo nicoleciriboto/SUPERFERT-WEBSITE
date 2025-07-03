@@ -153,18 +153,18 @@
     padding: 0 15px;
   }
   .about-container h1 {
-    font-size: 3em;
+    font-size: 2em;
     text-align: center;
     font-weight: bolder;
     color: #fff;
-    margin: 55px 25px;
+    margin: 90px 25px 25px 25px;
   }
 
   .about-container button {
-    padding: 10px 20px;
-    margin: 0 5em;
+    padding: 12px 20px;
+    margin: 0 9em;
     font-size: 0.8em;
-    width: 30%;
+    width: 40%;
   }
 
   .main-about img {
