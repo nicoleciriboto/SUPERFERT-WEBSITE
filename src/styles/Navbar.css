@@ -78,7 +78,7 @@
 /* Desktop styles */
 @media (min-width: 1024px) {
   .navbar {
-    left: 10%;
+    left: 30%;
     top: 20px;
     width: 900px;
     height: 70px;
