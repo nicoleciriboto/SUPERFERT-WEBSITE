@@ -19,6 +19,7 @@ const About = () => {
 
             <section className="main-about" id='main-about'>
                 <div className="about-text2">
+                    <h2>About Us</h2>
                     <p>Proudly Zimbabwean Superfert Fertilizer is locally manufactured at our state of the art processing plant in Bindura. Only the highest quality inputs are used across our range to ensure a dependable first-rate product with results that speak for themselves.</p>
 
                     <p>We operate nationwide in association with experienced third party distributors of agricultural inputs. Our internal transport and logistics division provides consistently reliable stock levels to large commercial and corporate farming enterprises nationwide, as well as retail outlets ensuring our retail partners are able to provide easily accessible and competitively priced fertilizers to all rural and small scale farmers.

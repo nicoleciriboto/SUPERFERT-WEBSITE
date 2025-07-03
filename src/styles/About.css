@@ -50,6 +50,12 @@
     margin-right: auto;
     height: 90vh;
 }
+.main-about h2 {
+    font-size: 2em;
+    font-weight: bold;
+    color: #000;
+    margin-bottom: 20px;
+}
 .main-about p,
 .about-text2 p {
     margin-bottom: 1.5em; 
@@ -161,7 +167,7 @@
   }
 
   .about-overlay {
-    height: 300px;
+    height: 370px;
     top: 560px;
     backdrop-filter: blur(6px);
   }

@@ -101,7 +101,7 @@
     position: absolute;
     width: 5em;
     height: 2em;
-    left: 85em;
+    left: 90em;
     top: 48em;
     font-family: 'Montserrat';
     font-style: normal;
@@ -142,11 +142,20 @@
 
 }
 
+.content-cards {
+    display: flex;
+    justify-content: center;      
+    align-items: center;          
+    gap: 3.5em;                   
+    flex-wrap: wrap;              
+    width: 100%;
+    margin: 0 auto;
+}
+
 .content .content-items .content-cards img {
+    margin: 10px;
     width: 9em;
     mix-blend-mode: multiply;
-    margin: 2.5em;
-    margin-top: 2em;
 }
 
 .about {
@@ -533,6 +542,7 @@
         position: absolute;
         top: -0px;
         width: 200%;
+        opacity: 85%;
     }
      .header h1 {
         font-size: 1em;
@@ -576,7 +586,7 @@
         padding: 0 1em;
     }
     .content .content-items .content-cards img {
-        margin-left: 8em;
+        margin-left: 2em;
 
     }
     .divider .line {
@@ -586,17 +596,18 @@
         display: none;
     }
     .offers-content h2{
-        margin-right: 3em;
+        margin-right: 1em;
         text-align: center;
     }
     .offers-content p {
         margin-right: 5em;
+        margin-left: 3em;
         margin-bottom: 0;
        
     }
     .offers-btn{
         margin-top: 0;
-        margin-right: 5em;
+        margin-right: 2em;
     }
     .offers img{
         display: none;
@@ -610,6 +621,9 @@
     font-size: 2.5em;
     text-align: center;
     margin-top: 0.2em;
+  }
+  .products-btn{
+    margin-left: 5em;
   }
   .products img{
     padding: 10px 10px;

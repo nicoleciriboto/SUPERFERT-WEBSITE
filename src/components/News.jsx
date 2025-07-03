@@ -2,8 +2,6 @@ import React from 'react'
 import '../styles/News.css'
 import img1 from '../imgs/fertilizer.png'
 import img2 from '../imgs/Line3.png'
-import img3 from '../imgs/arrowcircleleft.png'
-import img4 from '../imgs/arrowcircleright.png'
 
 const News = () => {
     return (
@@ -20,11 +18,6 @@ const News = () => {
                         <p>Lorem ipsum dolor sit amet, consectetur< br />adipiscing elit, sed do eiusmod tempor< br /> incididunt.</p>
                         <div className="event-date">
                             <p><strong>01</strong> / 04</p>
-                        </div>
-                        <div className="nav-arrows">
-                            <img src={img3} alt="" />
-                            <img src={img4} alt="" />
-
                         </div>
                         
                     </div>
