@@ -598,21 +598,24 @@
     .divider2 .line2 {
         display: none;
     }
+    .offers{
+        height: 70vh;
+    }
+    .offers-content{
+        margin-left: 2rem !important;
+    }
     .offers-content h2{
         font-size: 2em;
         margin-top: 2em;
-        margin-right: 1em;
         text-align: center;
     }
     .offers-content p {
-        margin-right: 5em;
-        margin-left: 2em;
+    
         margin-bottom: 20px;
        
     }
     .offers-btn{
         margin-top: 0;
-        margin-right: 3em;
     }
     .offers img{
         display: none;
@@ -823,7 +826,7 @@
         display: none;
     }
     .offers-content{
-        margin-top: 1.5em;
+        margin-top: 1em;
     }
     .offers-content h2{
         margin-top: 0;
