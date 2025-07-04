@@ -587,6 +587,7 @@
     }
     .content .content-items .content-cards img {
         margin-left: 2em;
+        mix-blend-mode: multiply;
 
     }
     .divider .line {

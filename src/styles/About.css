@@ -169,6 +169,7 @@
 
   .main-about img {
     width: 150px;
+    mix-blend-mode: multiply;
   }
 
   .about-text2 p {
